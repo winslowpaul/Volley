@@ -87,7 +87,8 @@ class ThemeThreads_Vc_Templates_Panel_Editor {
 			'process'      => esc_html__( 'Process', 'volley' ),
 			'tabs'         => esc_html__( 'Tabs', 'volley' ),
 			'team'         => esc_html__( 'Team', 'volley' ),
-			'testimonials' => esc_html__( 'Testimonials', 'volley' )
+			'testimonials' => esc_html__( 'Testimonials', 'volley' ),
+			'paul' 			=> esc_html__( 'Paul Templates', 'volley' )
 
 		);
 

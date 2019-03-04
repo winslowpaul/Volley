@@ -856,7 +856,7 @@ function themethreads_responsive_css() {
 			@media screen and (max-width: {$max_media_mobile_nav}px) {
 			  /*********************************************************
 			-------------
-			MOBULE HEADER
+			MOBILE HEADER
 			-------------
 			
 			- Nav trigger alignment
@@ -1171,7 +1171,7 @@ function themethreads_responsive_css() {
 			    opacity: 0;
 			    -webkit-transform: scale(1.75);
 			            transform: scale(1.75);
-			    background-image: linear-gradient(to top left, #1DE1BC 0%, #DA0BEE 100%);
+			    background-image: linear-gradient(to top left, #62299c 0%, #ae47a3 100%);
 			    transition: opacity 0.3s, -webkit-transform 0.3s;
 			    transition: opacity 0.3s, transform 0.3s;
 			    transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
