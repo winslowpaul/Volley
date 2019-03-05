@@ -16,7 +16,7 @@ class ThemeThreads_Mega_Menu_Edit_Walker extends Walker_Nav_Menu_Edit {
 	function __construct() {
 
 		$this->megamenus = get_posts(array(
-			'post_type' => 'themethreads-mega-menu',
+			'post_type' => 'volley-mega-menu',
 			'posts_per_page' => -1
 		));
 

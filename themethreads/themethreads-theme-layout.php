@@ -67,8 +67,8 @@ class ThemeThreads_Theme_Layout extends ThemeThreads_Base {
 			|| is_category()
 			|| is_tag()
 			|| is_author()
-			|| is_post_type_archive( 'themethreads-portfolio' ) 
-			|| is_tax( 'themethreads-portfolio-category' )
+			|| is_post_type_archive( 'volley-portfolio' ) 
+			|| is_tax( 'volley-portfolio-category' )
 			|| class_exists( 'WooCommerce' ) && is_product_taxonomy() 
 			|| class_exists( 'WooCommerce' ) && is_product_category() 
 			|| $this->has_sidebar() && !is_singular( 'post' )
@@ -96,8 +96,8 @@ class ThemeThreads_Theme_Layout extends ThemeThreads_Base {
 			|| is_category()
 			|| is_tag()
 			|| is_author()
-			|| is_post_type_archive( 'themethreads-portfolio' ) 
-			|| is_tax( 'themethreads-portfolio-category' ) 
+			|| is_post_type_archive( 'volley-portfolio' ) 
+			|| is_tax( 'volley-portfolio-category' ) 
 			|| class_exists( 'WooCommerce' ) && is_product_taxonomy() 
 			|| class_exists( 'WooCommerce' ) && is_product_category()
 			|| $this->has_sidebar() && !is_singular( 'post' )
@@ -272,7 +272,7 @@ class ThemeThreads_Theme_Layout extends ThemeThreads_Base {
 				'position'  => themethreads_helper()->get_theme_option( 'blog-sidebar-position' )
 			);
 
-			if ( is_singular( 'themethreads-portfolio' ) ) {
+			if ( is_singular( 'volley-portfolio' ) ) {
 				$sidebars = array(
 					'global'    => themethreads_helper()->get_theme_option( 'portfolio-enable-global' ),
 					'sidebar'   => themethreads_helper()->get_theme_option( 'portfolio-sidebar-one' ),
@@ -289,7 +289,7 @@ class ThemeThreads_Theme_Layout extends ThemeThreads_Base {
 
 			);
 
-			if ( is_post_type_archive( 'themethreads-portfolio' ) || is_tax( 'themethreads-portfolio-category' ) ) {
+			if ( is_post_type_archive( 'volley-portfolio' ) || is_tax( 'volley-portfolio-category' ) ) {
 				$sidebars = array(
 					'global'    => true,
 					'sticky'    => themethreads_helper()->get_theme_option( 'portfolio-archive-sidebar-enable-sticky' ),

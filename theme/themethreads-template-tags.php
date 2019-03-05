@@ -86,8 +86,8 @@ function themethreads_get_header_layout() {
 
 function themethreads_logo_url( $retina = false ) {
 
-	$logo        = $mobile_logo = get_template_directory_uri() . '/assets/img/logo/logo-1.svg';
-	$retina_logo = $retina_mobile_logo = get_template_directory_uri() . '/assets/img/logo/logo-1@2x.png';
+	$logo        = $mobile_logo = get_template_directory_uri() . '/assets/img/logo/volley-logo-dark.png';
+	$retina_logo = $retina_mobile_logo = get_template_directory_uri() . '/assets/img/logo/volley-logo-dark@2x.png';
 	
 	$logo_arr = themethreads_helper()->get_option( 'header-logo' );
 	if( is_array( $logo_arr ) && ! empty( $logo_arr['url'] ) ) {
@@ -429,7 +429,7 @@ function themethreads_portfolio_atts( $col = 6 ) {
 function themethreads_portfolio_archive_link() {
 
 	$pf_link         = themethreads_helper()->get_option( 'portfolio-archive-link' );
-	$pf_archive_link = get_post_type_archive_link( 'themethreads-portfolio' );
+	$pf_archive_link = get_post_type_archive_link( 'volley-portfolio' );
 
 	$link = ! empty( $pf_link ) ? $pf_link : $pf_archive_link;
 	?>

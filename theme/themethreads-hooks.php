@@ -325,7 +325,7 @@ function themethreads_get_header_view() {
 		if( is_search() ) {
 			$enable_titlebar = themethreads_helper()->get_option( 'search-title-bar-enable', 'raw', '' );
 		}
-		elseif( is_post_type_archive( 'themethreads-portfolio' ) || is_tax( 'themethreads-portfolio-category' ) ) {
+		elseif( is_post_type_archive( 'volley-portfolio' ) || is_tax( 'volley-portfolio-category' ) ) {
 			$enable_titlebar = themethreads_helper()->get_option( 'portfolio-title-bar-enable', 'raw', '' );
 		}
 		elseif( class_exists( 'WooCommerce' ) && ( is_product_taxonomy() || is_product_category() ) ) {
@@ -442,7 +442,7 @@ function themethreads_get_titlebar_view() {
 		if( is_search() ) {
 			$enable = themethreads_helper()->get_option( 'search-title-bar-enable', 'raw', '' );
 		}
-		elseif( is_post_type_archive( 'themethreads-portfolio' ) || is_tax( 'themethreads-portfolio-category' ) ) {
+		elseif( is_post_type_archive( 'volley-portfolio' ) || is_tax( 'volley-portfolio-category' ) ) {
 			$enable = themethreads_helper()->get_option( 'portfolio-title-bar-enable', 'raw', '' );
 		}
 		elseif( class_exists( 'WooCommerce' ) && ( is_product_taxonomy() || is_product_category() ) ) {
@@ -472,7 +472,7 @@ function themethreads_get_titlebar_view() {
 		}
 	}
 
-	if( is_singular( 'themethreads-portfolio' )) {
+	if( is_singular( 'volley-portfolio' )) {
 		get_template_part( 'templates/header/header-title-bar', 'portfolio' );
 		return;
 	}

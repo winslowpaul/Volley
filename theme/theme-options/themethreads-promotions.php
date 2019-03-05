@@ -9,7 +9,7 @@ $this->sections[] = array(
 );
 
 $this->sections[] = array(
-	'post_types' => array( 'post', 'page', 'themethreads-portfolio' ),
+	'post_types' => array( 'post', 'page', 'volley-portfolio' ),
 	'subsection' => true,
 	'title'      => esc_html__('Promotions', 'volley'),
 	'icon'       => 'el-icon-adjust-alt',

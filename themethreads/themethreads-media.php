@@ -241,11 +241,11 @@ function themethreads_image_sizes( $size ) {
 		'themethreads-related-post'         => array( 'width'  => '270',  'height' => '170', 'crop' => true ),
 
 		//Portfolio sizes
-		'themethreads-portfolio'          => array( 'width'  => '370', 'height' => '300', 'crop' => true ),
-		'themethreads-portfolio-sq'       => array( 'width'  => '295', 'height' => '295', 'crop' => true ),
-		'themethreads-portfolio-big-sq'   => array( 'width'  => '600', 'height' => '600', 'crop' => true ),
-		'themethreads-portfolio-portrait' => array( 'width'  => '350', 'height' => '500', 'crop' => true ),
-		'themethreads-portfolio-wide'     => array( 'width'  => '600', 'height' => '295', 'crop' => true ),
+		'volley-portfolio'          => array( 'width'  => '370', 'height' => '300', 'crop' => true ),
+		'volley-portfolio-sq'       => array( 'width'  => '295', 'height' => '295', 'crop' => true ),
+		'volley-portfolio-big-sq'   => array( 'width'  => '600', 'height' => '600', 'crop' => true ),
+		'volley-portfolio-portrait' => array( 'width'  => '350', 'height' => '500', 'crop' => true ),
+		'volley-portfolio-wide'     => array( 'width'  => '600', 'height' => '295', 'crop' => true ),
 		
 		'themethreads-packery-wide'     => array( 'width' => '570', 'height' => '370', 'crop' => true ),
 		'themethreads-packery-portrait' => array( 'width' => '270', 'height' => '370', 'crop' => true ),
@@ -258,8 +258,6 @@ function themethreads_image_sizes( $size ) {
 		'themethreads-large-slider'       => array( 'width' => '1170', 'height' => '650', 'crop' => true ),
 		
 		'themethreads-widget' => array( 'width' => '160', 'height' => '160', 'crop' => true  ),
-		
-		'themethreads-portfolio-vertical-overlay' => array( 'width' => '400', 'height' => '550', 'crop' => true ),
 		
 	);
 	

@@ -4,7 +4,7 @@
 
 		<div class="ld-pf-inner pos-rel">
 			<div class="ld-pf-image border-radius-2 shadowed">
-				<?php $this->entry_thumbnail( 'themethreads-portfolio', true ); ?>
+				<?php $this->entry_thumbnail( 'volley-portfolio', true ); ?>
 			</div><!-- /.ld-pf-image -->
 		</div><!-- /.ld-pf-inner -->
 

@@ -2790,8 +2790,8 @@ body.archive.woocommerce #content ~ .threads-main-footer-default {
 }
 
 .titlebar-inner {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: #000;
 }
 
@@ -13063,13 +13063,13 @@ ul.pagination .page-numbers.current {
   border-radius: 50em;
 }
 
-.themethreads-portfolio-list-row {
+.volley-portfolio-list-row {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
 
-.themethreads-portfolio-list-row:before, .themethreads-portfolio-list-row:after {
+.volley-portfolio-list-row:before, .volley-portfolio-list-row:after {
   content: none;
 }
 

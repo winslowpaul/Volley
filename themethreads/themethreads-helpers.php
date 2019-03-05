@@ -67,7 +67,7 @@ class ThemeThreads_Helper {
 	}
 
 	/**
-	 * Instantiates the WordPress filesystem for use with Ave.
+	 * Instantiates the WordPress filesystem for use with Volley.
 	 *
 	 * @static
 	 * @access public

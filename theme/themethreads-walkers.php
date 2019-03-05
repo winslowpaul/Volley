@@ -11,7 +11,7 @@ class ThemeThreads_Walker_Portfolio_List_Categories extends Walker_Category {
 
 	function start_el( &$output, $category, $depth = 0, $args = array(), $current_object_id = 0 ) {
 
-		$has_children = get_term_children( $category->term_id, 'themethreads-portfolio-category' );
+		$has_children = get_term_children( $category->term_id, 'volley-portfolio-category' );
 
 		if( empty( $has_children ) ) {
 			$cat_name = apply_filters( 'list_cats', esc_attr( $category->name ), $category );

@@ -5,7 +5,7 @@
 */
 
 $sections[] = array(
-	'post_types' => array( 'themethreads-mega-menu' ),
+	'post_types' => array( 'volley-mega-menu' ),
 	'title'      => esc_html__( 'MegaMenu Design Options', 'volley' ),
 	'icon'       => 'el-icon-cog',
 	'fields'     => array(

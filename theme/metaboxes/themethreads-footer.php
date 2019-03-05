@@ -12,7 +12,7 @@
 */
 
 $sections[] = array(
-	'post_types' => array( 'post', 'page', 'themethreads-portfolio' ),
+	'post_types' => array( 'post', 'page', 'volley-portfolio' ),
 	'title' => esc_html__('Footer', 'volley'),
 	'icon' => 'el-icon-cog',
 	'fields' => array(

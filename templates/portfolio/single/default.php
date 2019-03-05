@@ -11,7 +11,7 @@ if( 'off' !== $enable_header ) :
 		<div class="row d-lg-flex align-items-end pt-3 pb-5">
 			<div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
 				
-				<?php the_terms( get_the_ID(), 'themethreads-portfolio-category', '<ul class="pf-single-cat my-0 text-uppercase ltr-sp-1 reset-ul comma-sep-li"><li>', '</li> <li>', '</li></ul>' ); ?>	
+				<?php the_terms( get_the_ID(), 'volley-portfolio-category', '<ul class="pf-single-cat my-0 text-uppercase ltr-sp-1 reset-ul comma-sep-li"><li>', '</li> <li>', '</li></ul>' ); ?>	
 				<?php the_title( '<h2 class="pf-single-title size-xl my-0 font-weight-bold" data-fittext="true" data-fittext-options=\'{ "maxFontSize": "currentFontSize", "compressor": 0.7 }\'>', '</h2>' ) ?>
 				<?php themethreads_portfolio_subtitle( '<h4 class="my-0">', '</h4>' ); ?>
 	

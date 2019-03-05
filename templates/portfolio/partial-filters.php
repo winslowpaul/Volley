@@ -3,11 +3,11 @@
 extract( $atts );
 
 if( function_exists( 'ld_helper' ) ) {
-	$filter_cats = ld_helper()->terms_are_ids_or_slugs( $filter_cats, 'themethreads-portfolio-category' );
+	$filter_cats = ld_helper()->terms_are_ids_or_slugs( $filter_cats, 'volley-portfolio-category' );
 }
 
 $terms = get_terms( array(
-	'taxonomy'   => 'themethreads-portfolio-category',
+	'taxonomy'   => 'volley-portfolio-category',
 	'hide_empty' => false,
 	'include'    => $filter_cats
 ) );

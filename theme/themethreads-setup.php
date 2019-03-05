@@ -7,7 +7,7 @@ if( !defined( 'ABSPATH' ) )
 	exit; // Exit if accessed directly
 
 // Custom Post Type Supports
-add_theme_support( 'themethreads-portfolio' );
+add_theme_support( 'volley-portfolio' );
 add_theme_support( 'themethreads-footer' );
 add_theme_support( 'themethreads-header' );
 add_theme_support( 'themethreads-promotion' );

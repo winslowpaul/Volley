@@ -49,8 +49,6 @@ $this->sections[] = array(
 				'grid-hover-overlay' => esc_html__( 'Grid Hover Overlay', 'volley' ),
 				'grid-hover-classic' => esc_html__( 'Grid Hover Classic', 'volley' ),
 				'packery'            => esc_html__( 'Packery', 'volley' ),
-				'packery-2'          => esc_html__( 'Packery 2', 'volley' ),
-				'packery-3'          => esc_html__( 'Packery 3', 'volley' ),
 
 			),
 			'default'  => 'metro'

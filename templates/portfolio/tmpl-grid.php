@@ -3,7 +3,7 @@
 		<div class="ld-pf-inner">
 
 			<div class="ld-pf-image">				
-				<?php $this->entry_thumbnail( 'themethreads-portfolio', true ); ?>
+				<?php $this->entry_thumbnail( 'volley-portfolio', true ); ?>
 			</div><!-- /.ld-pf-image -->
 
 			<div class="ld-pf-bg"></div><!-- /.ld-pf-bg -->

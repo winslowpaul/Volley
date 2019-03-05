@@ -12,7 +12,7 @@
 */
 
 $sections[] = array(
-	'post_types'   => array('themethreads-portfolio'),
+	'post_types'   => array('volley-portfolio'),
 	'separate_box' => true,
 	'box_title'    => esc_html__('Portfolio Description', 'volley'),
 	'icon'         => 'el-icon-cog',
@@ -26,7 +26,7 @@ $sections[] = array(
 );
 
 $sections[] = array(
-	'post_types' => array( 'themethreads-portfolio' ),
+	'post_types' => array( 'volley-portfolio' ),
 	'title'      => esc_html__('Portfolio General', 'volley'),
 	'icon'       => 'el-icon-cog',
 	'fields'     => array(
@@ -87,11 +87,11 @@ $sections[] = array(
 			'subtitle' => esc_html__( 'Choose a dimension for your portfolio thumb', 'volley' ),
 			'options'  => array(
 
-				'themethreads-portfolio'          => esc_html__( 'Default - (370 x 300)', 'volley' ),
-				'themethreads-portfolio-sq'       => esc_html__( 'Square - (295 x 295)',     'volley' ),
-				'themethreads-portfolio-big-sq'   => esc_html__( 'Big Square - (600 x 600)', 'volley' ),
-				'themethreads-portfolio-portrait' => esc_html__( 'Portrait - (350 x 500)',   'volley' ),
-				'themethreads-portfolio-wide'     => esc_html__( 'Wide - (600 x 295)',       'volley' ),
+				'volley-portfolio'          => esc_html__( 'Default - (370 x 300)', 'volley' ),
+				'volley-portfolio-sq'       => esc_html__( 'Square - (295 x 295)',     'volley' ),
+				'volley-portfolio-big-sq'   => esc_html__( 'Big Square - (600 x 600)', 'volley' ),
+				'volley-portfolio-portrait' => esc_html__( 'Portrait - (350 x 500)',   'volley' ),
+				'volley-portfolio-wide'     => esc_html__( 'Wide - (600 x 295)',       'volley' ),
 				//Packery image sizes
 				'themethreads-packery-wide'     => esc_html__( 'Packery Wide - (570 x 370)', 'volley' ),
 				'themethreads-packery-portrait' => esc_html__( 'Packery Portrait - (270 x 370)', 'volley' ),

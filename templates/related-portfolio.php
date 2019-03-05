@@ -14,7 +14,7 @@
 						<article class="pf-related pf-related-alt" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": "this", "offTriggerHandler": "mouseleave", "direction": "forward", "animationTarget": ".pf-related-cat li, .split-inner", "duration": 650, "direction": "backward", "delay": 50, "initValues": { "translateY": "0", "opacity": 1 }, "animations": { "translateY": -20, "opacity": 0 } }'>
 		
 							<figure style="background-image: url(<?php echo esc_url( $thumb_url ); ?>);" data-parallax="true" data-parallax-options='{ "parallaxBG": true, "scaleBG": false }' data-parallax-from='{ "translateY": 0, "scale": 1 }' data-parallax-to='{ "translateY": 0, "scale": 1.3 }'>
-								<?php themethreads_the_post_thumbnail( 'themethreads-portfolio-related', null, false ); ?>
+								<?php themethreads_the_post_thumbnail( 'volley-portfolio-related', null, false ); ?>
 							</figure>
 		
 							<header>

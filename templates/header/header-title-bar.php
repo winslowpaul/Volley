@@ -29,7 +29,7 @@ elseif( is_search() ) {
 	$heading = sprintf( esc_html__( 'Search Results for: %s', 'volley' ), '<span>' . get_search_query() . '</span>' );
 	$subheading = themethreads_helper()->get_option( 'search-title-bar-subheading', 'html' );
 }
-elseif( is_post_type_archive( 'themethreads-portfolio' ) || is_tax( 'themethreads-portfolio-category' ) ) {
+elseif( is_post_type_archive( 'volley-portfolio' ) || is_tax( 'volley-portfolio-category' ) ) {
 	$heading = themethreads_helper()->get_option( 'portfolio-title-bar-heading', 'html' ) ? do_shortcode( themethreads_helper()->get_option( 'portfolio-title-bar-heading', 'html' ) ) : single_cat_title( '', false );
 	$subheading = themethreads_helper()->get_option( 'portfolio-title-bar-subheading', 'html' );
 }

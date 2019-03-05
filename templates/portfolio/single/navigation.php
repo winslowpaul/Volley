@@ -1,7 +1,7 @@
 <?php
 
-$prev_post = get_adjacent_post( true, '', true, 'themethreads-portfolio-category' );
-$next_post = get_adjacent_post( true, '', false, 'themethreads-portfolio-category' );
+$prev_post = get_adjacent_post( true, '', true, 'volley-portfolio-category' );
+$next_post = get_adjacent_post( true, '', false, 'volley-portfolio-category' );
 
 $style = get_post_meta( get_the_ID(), 'portfolio-style', true );
 $style = $style ? $style : 'gallery-stacked';

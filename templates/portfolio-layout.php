@@ -31,4 +31,4 @@ if( !class_exists( 'LD_PortfolioListing' ) ) {
 	return;
 }
 
-get_template_part( 'theme/themethreads-portfolio' );
+get_template_part( 'theme/volley-portfolio' );
