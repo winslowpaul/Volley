@@ -44,10 +44,7 @@ $this->sections[] = array(
 				'grid'               => esc_html__( 'Grid', 'volley' ),
 				'grid-alt'           => esc_html__( 'Grid Alt', 'volley' ),
 				'grid-caption'       => esc_html__( 'Grid Caption', 'volley' ),
-				'grid-hover-alt'     => esc_html__( 'Grid Hover Alt', 'volley' ),
 				'grid-hover-3d'      => esc_html__( 'Grid Hover 3D', 'volley' ),
-				'grid-hover-overlay' => esc_html__( 'Grid Hover Overlay', 'volley' ),
-				'grid-hover-classic' => esc_html__( 'Grid Hover Classic', 'volley' ),
 				'packery'            => esc_html__( 'Packery', 'volley' ),
 
 			),
@@ -109,9 +106,7 @@ $this->sections[] = array(
 					'grid', 
 					'grid-alt',
 					'grid-caption', 
-					'grid-hover-3d', 
-					'grid-hover-alt',
-					'grid-hover-overlay', 
+					'grid-hover-3d',
 					'masonry-creative', 
 					'masonry-classic' 
 				),

@@ -9624,24 +9624,6 @@ svg + .themethreads-lp-category {
   z-index: 2;
 }
 
-.themethreads-blog-item-candy .themethreads-lp-media {
-  margin-bottom: 27px;
-  overflow: hidden;
-}
-
-.themethreads-blog-item-candy .themethreads-lp-header {
-  margin-bottom: 15px;
-}
-
-.themethreads-blog-item-candy .themethreads-lp-footer time,
-.themethreads-blog-item-candy .themethreads-lp-footer a {
-  color: #000;
-}
-
-.themethreads-blog-item-candy .themethreads-lp-details-lined:before {
-  background-color: var(--color-primary);
-}
-
 .themethreads-blog-scheme-dark a,
 .themethreads-blog-scheme-light a {
   color: inherit;

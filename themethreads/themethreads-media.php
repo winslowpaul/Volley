@@ -212,8 +212,6 @@ function themethreads_image_sizes( $size ) {
 	$sizes = array(
 		'themethreads-default-blog'  => array( 'width'  => '370',  'height' => '230', 'crop' => true ),
 		'themethreads-standard-blog' => array( 'width'  => '370',  'height' => '400', 'crop' => true ),
-		'themethreads-featured-blog' => array( 'width'  => '570',  'height' => '300', 'crop' => true ),
-		'themethreads-rounded-blog'  => array( 'width'  => '370',  'height' => '250', 'crop' => true ),
 		'themethreads-classic-meta-blog' => array( 'width'  => '370',  'height' => '300', 'crop' => true ),
 		'themethreads-classic-2-blog' => array( 'width'  => '550',  'height' => '350', 'crop' => true ),
 		'themethreads-grid' => array( 'width'  => '330',  'height' => '250', 'crop' => true ),
@@ -223,7 +221,6 @@ function themethreads_image_sizes( $size ) {
 		'themethreads-timeline-blog' => array( 'width'  => '490',  'height' => '300', 'crop' => true ),
 		'themethreads-carousel-blog' => array( 'width'  => '670',  'height' => '400', 'crop' => true ),
 		'themethreads-square-blog' => array( 'width'  => '560',  'height' => '555', 'crop' => true ),
-		'themethreads-candy-blog' => array( 'width'  => '470',  'height' => '470', 'crop' => true ),
 		
 		//Masonry blog images sizes		
 		'themethreads-masonry-shortest' => array( 'width' => '450', 'height' => '300', 'crop'  => true ),
@@ -250,8 +247,6 @@ function themethreads_image_sizes( $size ) {
 		'themethreads-packery-wide'     => array( 'width' => '570', 'height' => '370', 'crop' => true ),
 		'themethreads-packery-portrait' => array( 'width' => '270', 'height' => '370', 'crop' => true ),
 		
-		'themethreads-grid-hover-overlay' => array( 'width' => '570', 'height' => '350', 'crop' => true ),
-		'themethreads-grid-hover-classic' => array( 'width' => '500', 'height' => '350', 'crop' => true ),
 		'themethreads-grid-hover-3d'      => array( 'width' => '370', 'height' => '450', 'crop' => true ),
 		'themethreads-grid-caption'       => array( 'width' => '270', 'height' => '400', 'crop' => true ),
 		
