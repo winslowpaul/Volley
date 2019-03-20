@@ -212,7 +212,6 @@ function themethreads_image_sizes( $size ) {
 	$sizes = array(
 		'themethreads-default-blog'  => array( 'width'  => '370',  'height' => '230', 'crop' => true ),
 		'themethreads-standard-blog' => array( 'width'  => '370',  'height' => '400', 'crop' => true ),
-		'themethreads-classic-meta-blog' => array( 'width'  => '370',  'height' => '300', 'crop' => true ),
 		'themethreads-classic-2-blog' => array( 'width'  => '550',  'height' => '350', 'crop' => true ),
 		'themethreads-grid' => array( 'width'  => '330',  'height' => '250', 'crop' => true ),
 		'themethreads-split-blog'    => array( 'width'  => '570',  'height' => '350', 'crop' => true ),

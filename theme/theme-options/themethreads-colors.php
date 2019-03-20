@@ -10,7 +10,7 @@ $this->sections[] = array(
 			'title'   => esc_html__( 'Primary color' , 'volley' ),
 			'subtile' => '',
 			'desc'    => esc_html__( 'Choose a primary color for your website by using the colorpicker', 'volley' ),
-			'default' => '#f13c46',
+			'default' => '#662a9c',
 
 		),
 		array(
@@ -28,8 +28,8 @@ $this->sections[] = array(
 			'desc'    => esc_html__( 'Choose colors to generate a primary gradient color for your website by using the colorpicker', 'volley' ),
 			'validate' => 'color',
 			'default' => array(
-				'from' => '#f42958',
-				'to'   => '#e4442a',
+				'from' => '#662a9c',
+				'to'   => '#ab46a3',
 				
 			)
 		),
