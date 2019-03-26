@@ -68,26 +68,6 @@ class ThemeThreads_Vc_Templates_Panel_Editor {
 
 		$categories = array(
 			'all'          => esc_html__( 'All', 'volley' ),
-			'accordion'    => esc_html__( 'Accordions', 'volley' ),
-			'banner'       => esc_html__( 'Banners', 'volley' ),
-			'blog'         => esc_html__( 'Blog', 'volley' ),
-			'carousel'     => esc_html__( 'Carousel', 'volley' ),
-			'contact'      => esc_html__( 'Contacts', 'volley' ),
-			'counters'     => esc_html__( 'Counter', 'volley' ),
-			'fancybox'     => esc_html__( 'Fancybox', 'volley' ),
-			'fancytext'    => esc_html__( 'Fancytext', 'volley' ),
-			'footer'       => esc_html__( 'Footers', 'volley' ),
-			'header'       => esc_html__( 'Headers', 'volley' ),
-			'icon'         => esc_html__( 'Icons', 'volley' ),
-			'media'        => esc_html__( 'Media', 'volley' ),
-			'misc'         => esc_html__( 'Miscellaneous', 'volley' ),
-			'newsletter'   => esc_html__( 'Newsletter', 'volley' ),
-			'portfolio'    => esc_html__( 'Portfolio', 'volley' ),
-			'pricing'      => esc_html__( 'Pricing', 'volley' ),
-			'process'      => esc_html__( 'Process', 'volley' ),
-			'tabs'         => esc_html__( 'Tabs', 'volley' ),
-			'team'         => esc_html__( 'Team', 'volley' ),
-			'testimonials' => esc_html__( 'Testimonials', 'volley' ),
 			'paul' 			=> esc_html__( 'Paul Templates', 'volley' )
 
 		);

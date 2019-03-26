@@ -6820,77 +6820,6 @@ textarea:focus ~ .themethreads-cl-3:after,
   color: #5E6575;
 }
 
-.pricing-table-modern:before {
-  content: '';
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: auto;
-}
-
-.pricing-table-modern .pricing-table-header,
-.pricing-table-modern .pricing-table-body,
-.pricing-table-modern .pricing-table-footer {
-  position: relative;
-  z-index: 2;
-}
-
-.pricing-table-modern h5 {
-  margin-top: 0;
-  margin-bottom: 1.35em;
-  color: #32325C;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.pricing-table-modern .pricing {
-  font-size: 72px;
-  color: var(--color-primary);
-  line-height: 1;
-}
-
-.pricing-table-modern .pricing small {
-  display: block;
-  margin-top: 1em;
-  font-size: 0.2222222222em;
-  color: #5B6C94;
-}
-
-.pricing-table-modern .pricing-table-body {
-  padding: 50px 15px 0;
-  font-size: 16px;
-}
-
-.pricing-table-modern ul {
-  font-size: 16px;
-  line-height: 1.5em;
-}
-
-.pricing-table-modern ul li:not(:last-child) {
-  margin-bottom: 1.45em;
-}
-
-.pricing-table-modern .pricing-table-footer {
-  margin-top: 60px;
-}
-
-.pricing-table-modern.featured {
-  color: #fff;
-}
-
-.pricing-table-modern.featured:before {
-  background: linear-gradient(to bottom, #0856F7 0%, #1DFFDD 100%);
-}
-
-.pricing-table-modern.featured h5,
-.pricing-table-modern.featured .pricing,
-.pricing-table-modern.featured .pricing small {
-  color: inherit;
-}
-
 .pricing-table-minimal {
   padding: 45px 50px 50px;
   border-radius: 10px;
@@ -10769,7 +10698,7 @@ svg + .themethreads-lp-category {
   font-size: 18px;
 }
 
-/* 3.16. Counnter */
+/* 3.16. Counter */
 .themethreads-counter {
   display: inline-block;
   position: relative;
@@ -10926,30 +10855,6 @@ svg + .themethreads-lp-category {
 .themethreads-animator-numbers li {
   margin: 0;
   background: inherit;
-}
-
-.themethreads-counter-huge .themethreads-counter-element {
-  line-height: 0.8em;
-}
-
-.themethreads-counter-huge .themethreads-text-top {
-  display: block;
-  margin-bottom: 2em;
-  position: relative;
-  top: 2em;
-  font-size: 0.875em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.themethreads-counter-huge .themethreads-text-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 100%;
-  font-size: 1.125em;
-  line-height: 1.5em;
-  font-style: italic;
 }
 
 .themethreads-counter-bordered {
@@ -13886,8 +13791,8 @@ ul.pagination .page-numbers.current {
 .tags-links {
   margin: 0;
   padding: 0;
-  font-size: 10px;
-  line-height: 1.5em;
+  font-size: 11px;
+  line-height: 1em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   list-style: none;
@@ -13898,19 +13803,21 @@ ul.pagination .page-numbers.current {
 .tags-links > li,
 .tags-links > a {
   display: inline-flex;
-  margin-right: 0.2em;
+  margin-right: 0.4em;
 }
 
 .post-categories li a,
 .post-categories > a,
 .tags-links li a,
 .tags-links > a {
-  padding: 0.5em 1.5em;
+  padding: 1em 1.5em;
   margin-bottom: 0.5em;
   align-items: center;
-  border: 1px solid #16171e;
+  border: 2px solid #16171e;
+  border-radius: 3px;
   color: #16171e;
   opacity: 0.6;
+  font-weight: 600;
 }
 
 .post-categories li a:hover,
